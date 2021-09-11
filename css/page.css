@@ -2,6 +2,16 @@
   width: 1100px;
   height: 95vh;
 }
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  width: 500px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
 .page {
   display: flex;
   justify-content: center;
@@ -11,6 +21,12 @@
   width: 300px;
   height: 300px;
   margin: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.page__box__contents {
+  margin-bottom: 15px;
 }
