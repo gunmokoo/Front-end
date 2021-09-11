@@ -1,0 +1,16 @@
+.wrapper-page {
+  width: 1100px;
+  height: 95vh;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page__box {
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: teal;
+}
