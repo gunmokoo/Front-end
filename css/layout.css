@@ -1,0 +1,42 @@
+.wrapper-layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.layout {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+.layout div {
+  display: flex;
+  font-size: 50px;
+}
+.blue {
+  color: white;
+  background-color: blue;
+  justify-content: flex-start;
+  grid-row: span 2;
+  grid-column: span 2;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: -20px;
+}
+.yellow {
+  background-color: yellow;
+  grid-row: span 2;
+  writing-mode: vertical-rl;
+}
+.red {
+  color: white;
+  background-color: red;
+  grid-column: span 3;
+  text-shadow: black;
+}

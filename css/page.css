@@ -3,13 +3,13 @@
   height: 95vh;
 }
 .search {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 .search input {
   width: 500px;
   padding: 20px;
-  margin-bottom: 50px;
   border-radius: 20px;
 }
 .page {
@@ -22,10 +22,19 @@
   height: 300px;
   margin: 15px;
   border-radius: 20px;
+  border: 1px solid gainsboro;
   background-color: teal;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+.page__box:first-child {
+  background-image: url("../img/grid.jpg");
+}
+.page__box:hover {
+  width: 310px;
+  height: 310px;
+  font-size: 22px;
 }
 .page__box__contents {
   margin-bottom: 15px;
