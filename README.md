@@ -9,14 +9,14 @@ The configuration is divided into a 'main page' and individual pages.
 
 - main page
 - grid page
-- layout page
+- clone coding page
 - mobile page
 
 ---
 
 ## plan
 
-- next category layout
+- next category design(pinterest) clone coding
 - next category SPA
 - Hover status animations for categories with js
 - email, name in footer ex) google
